@@ -9,7 +9,7 @@ logging.basicConfig(level=logging.INFO)
 async def bot_on(_):
     print('Bot is on...')
 
-API_TOKEN = '5535805074:AAH9hPsG9EsJQXRQGCT3fI4F1KaxgKAsMjQ'
+API_TOKEN = 'token'
 
 bot = Bot(token=API_TOKEN)
 dp = Dispatcher(bot)
